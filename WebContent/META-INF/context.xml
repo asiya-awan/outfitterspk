@@ -1,0 +1,11 @@
+<Context>
+
+	<Resource name="jdbc/store" auth="Container"
+		type="javax.sql.DataSource"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		initialSize="5" maxActive="20" maxIdle="5" maxWait="10000"
+		username="webstudent" password="webstudent"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/store?allowMultiQueries=true" />
+
+</Context>
